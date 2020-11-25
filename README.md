@@ -17,7 +17,7 @@ for (const Gravity &gravity : all_gravities)
 }
 ```
 
-As you can see, it is not their being in the same list owned by an Entity class of some sort which defines the identity of components; rather, it is their having the same identifier.
+As you can see, components are not in the same list owned by an Entity class of some sort. Instead, they're identified as being part of the same entity by their ID.
 
 ### Pros
 
