@@ -1,7 +1,10 @@
-#pragma once
+#ifndef CBA_H_DEFINED
+#define CBA_H_DEFINED
+
 #include <vector>
 #include <type_traits>
 #include <span>
+#include <algorithm>
 
 namespace CBA
 {
@@ -94,3 +97,5 @@ namespace CBA
 		std::vector<Component_t> components{};
 	};
 }
+
+#endif
